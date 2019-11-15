@@ -4,7 +4,7 @@
     <list default="true" id="261f114e-4f42-4ced-9de0-24f9179574fd" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/blog/templates/blog/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog2/templates/blog/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog2/templates/blog2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/settings.py" afterDir="false" />
