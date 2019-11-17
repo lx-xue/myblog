@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Edit Page</title>
+</head>
+<body>
+<form action="/blog/add/action/" method="post">
+    {% csrf_token %}
+    <label for="">文章标题
+        <input type="text" name="title">
+    </label>
+    <br>
+    <label for="">文章内容
+        <input type="text" name="content">
+    </label>
+    <br>
+    <input type="submit">
+</form>
+</body>
+</html>

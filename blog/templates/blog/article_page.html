@@ -5,13 +5,13 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Article List</title>
+    <title>Article Page</title>
 </head>
 <body>
-<h1><a href="/blog/add/">新文章</a></h1>
-{% for article in articles %}
-<a href="/blog/article/{{ article.id }}">{{ article.title }}</a>
+<h1>{{ article.title }}</h1>
 <br/>
-{% endfor %}
+<h3>{{ article.content }}</h3>
+<br/><br/>
+<a href="/blog/edit/{{ article.id }}/">修改文章</a>
 </body>
 </html>
